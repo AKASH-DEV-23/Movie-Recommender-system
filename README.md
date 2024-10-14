@@ -11,11 +11,9 @@ This is a **Content-Based Movie Recommender System** built using Python, Flask, 
 
 ## Tech Stack
 - **Frontend**: Streamlit
-- **Backend**: Flask
 - **Data Handling**: Pandas, NumPy
 - **API Requests**: Requests
 - **Deployment**: Render
-- **Database**: MongoDB (optional, for extended features)
 
 ## Installation
 
@@ -23,26 +21,25 @@ This is a **Content-Based Movie Recommender System** built using Python, Flask, 
 - **Python**: Ensure you have Python 3.8 or higher installed on your system.
 
 ### Clone the Repository
-```bash
 https://github.com/AKASH-DEV-23/Movie-Recommender-system.git
 cd movie-recommender-system
 Install Dependencies
 pip install -r requirements.txt
 
-Usage
+## Usage
 Running the Application
 To run the application locally, use the following command:
 bash
 streamlit run app.py
 
-Accessing the Application
+## Accessing the Application
 Once the application is running, open your browser and navigate to:
 http://localhost:8501
 
-Deployment
+## Deployment
 The application is deployed and accessible online at: 🌐 Movie Recommender System
 
-API Usage
+## API Usage
 The application utilizes the TMDb API to fetch movie data, including:
 
 Movie details
@@ -51,11 +48,9 @@ Trailers
 TMDb API Key
 To enhance the application or use it in other projects, you'll need a TMDb API key. You can obtain one by creating an account on TMDb.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments
 🎥 The Movie Database (TMDb) for the movie data API.
 📚 Streamlit Documentation for reference on using Streamlit.
-💻 Flask Documentation for guidance on Flask usage.
+💻 Python Documentation for guidance on Python usage.
 
