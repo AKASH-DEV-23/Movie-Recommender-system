@@ -37,7 +37,7 @@ Once the application is running, open your browser and navigate to:
 http://localhost:8501
 
 ## Deployment
-The application is deployed and accessible online at: 🌐 https://movie1-rz5r.onrender.com
+The application is deployed and accessible online at: 🌐 https://movie5-4poo.onrender.com
 
 ## API Usage
 The application utilizes the TMDb API to fetch movie data, including:
