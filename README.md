@@ -50,7 +50,7 @@ To enhance the application or use it in other projects, you'll need a TMDb API k
 
 
 ## Acknowledgments
-- **🎥 The Movie Database (TMDb) for the movie data API.
-- ** 📚 Streamlit Documentation for reference on using Streamlit.
-- ** 💻 Python Documentation for guidance on Python usage.
+-  🎥 The Movie Database (TMDb) for the movie data API.
+-  📚 Streamlit Documentation for reference on using Streamlit.
+-  💻 Python Documentation for guidance on Python usage.
 
