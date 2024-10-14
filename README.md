@@ -1,27 +1,61 @@
-# Movie Recommender System
+# 🎬 Movie Recommender System
 
 ## Overview
-This is a content-based movie recommender system built using Python and Streamlit. The application provides movie recommendations based on user input, utilizing a dataset of movies and their features to suggest similar titles.
+This is a **Content-Based Movie Recommender System** built using Python, Flask, and Streamlit. The application recommends movies based on user input by analyzing movie features and similarities. It retrieves additional details such as posters and trailers from The Movie Database (TMDb).
 
 ## Features
-- **Movie Recommendations**: Input a movie title and receive a list of similar movies.
-- **Movie Details**: View posters, trailers, and additional information about the recommended movies.
-- **Interactive Interface**: Built with Streamlit for a user-friendly experience.
+- **Movie Recommendations**: Input a movie title and receive a curated list of similar movies.
+- **Movie Details**: View movie posters, trailers, and more information.
+- **User-Friendly Interface**: Developed with Streamlit for an interactive experience.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
 ## Tech Stack
 - **Frontend**: Streamlit
+- **Backend**: Flask
 - **Data Handling**: Pandas, NumPy
 - **API Requests**: Requests
+- **Deployment**: Render
+- **Database**: MongoDB (optional, for extended features)
 
 ## Installation
 
 ### Prerequisites
-- Python 3.8 or higher
+- **Python**: Ensure you have Python 3.8 or higher installed on your system.
 
+### Clone the Repository
+```bash
+https://github.com/AKASH-DEV-23/Movie-Recommender-system.git
+cd movie-recommender-system
+Install Dependencies
+pip install -r requirements.txt
 
-### Special Effects Added:
-- **Emojis**: Added relevant emojis to enhance visual appeal and draw attention to key sections.
-- **Bold Text**: Important keywords and phrases are bolded for better readability.
-- **Styled Links**: Used emojis next to the links to make them stand out.
+Usage
+Running the Application
+To run the application locally, use the following command:
+bash
+streamlit run app.py
 
-Feel free to adjust any part of this to suit your style or project specifics!
+Accessing the Application
+Once the application is running, open your browser and navigate to:
+http://localhost:8501
+
+Deployment
+The application is deployed and accessible online at: 🌐 Movie Recommender System
+
+API Usage
+The application utilizes the TMDb API to fetch movie data, including:
+
+Movie details
+Movie posters
+Trailers
+TMDb API Key
+To enhance the application or use it in other projects, you'll need a TMDb API key. You can obtain one by creating an account on TMDb.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgments
+🎥 The Movie Database (TMDb) for the movie data API.
+📚 Streamlit Documentation for reference on using Streamlit.
+💻 Flask Documentation for guidance on Flask usage.
+
