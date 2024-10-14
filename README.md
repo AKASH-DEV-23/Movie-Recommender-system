@@ -1,7 +1,7 @@
 # 🎬 Movie Recommender System
 
 ## Overview
-This is a **Content-Based Movie Recommender System** built using Python, Flask, and Streamlit. The application recommends movies based on user input by analyzing movie features and similarities. It retrieves additional details such as posters and trailers from The Movie Database (TMDb).
+This is a **Content-Based Movie Recommender System** built using Python and Streamlit. The application recommends movies based on user input by analyzing movie features and similarities. It retrieves additional details such as posters and trailers from The Movie Database (TMDb).
 
 ## Features
 - **Movie Recommendations**: Input a movie title and receive a curated list of similar movies.
@@ -37,7 +37,7 @@ Once the application is running, open your browser and navigate to:
 http://localhost:8501
 
 ## Deployment
-The application is deployed and accessible online at: 🌐 Movie Recommender System
+The application is deployed and accessible online at: 🌐 https://movie1-rz5r.onrender.com
 
 ## API Usage
 The application utilizes the TMDb API to fetch movie data, including:
@@ -50,7 +50,7 @@ To enhance the application or use it in other projects, you'll need a TMDb API k
 
 
 ## Acknowledgments
-🎥 The Movie Database (TMDb) for the movie data API.
-📚 Streamlit Documentation for reference on using Streamlit.
-💻 Python Documentation for guidance on Python usage.
+- **🎥 The Movie Database (TMDb) for the movie data API.
+- ** 📚 Streamlit Documentation for reference on using Streamlit.
+- ** 💻 Python Documentation for guidance on Python usage.
 
